@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>삼진어묵 공식쇼핑몰</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700,900&display=swap" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/fontawesome.scss" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <script src="script/main.js"></script>
+    <script src="https://use.fontawesome.com/1afa07c623.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="account_bg"></div>
+        <header>
+            <div id="account_wr">
+                <ul id="account">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li id="company"><a href="#">회사소개</a><input type="button" id="language_b" value="kor"></li>
+                    <li><input type="button" id="language_b" value="eng"></li>
+                </ul>
+            </div>
+            <div class="logo_wr">
+                <div id="logo_content">
+                    <div id="logo"><a href="#"><img src="images/logo.svg" alt=""></a></div>
+                    <ul>
+                        <li><span>사업자 전용</span></li>
+                        <li><span>매장찾기</span></li>
+                    </ul>
+                </div>
+            </div>
+            <nav id="gnb">
+                <div class="menu_wr">
+                    <ul id="all_menu">
+                        <li><div id="menu_icon"></div></li>
+                        <li><span>전체 카테고리</span>
+                            <ul id="lnb">
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul id="menu">
+                        <li><a href="#">베스트상품</a></li>
+                        <li><a href="#">신상품</a></li>
+                        <li><a href="#">기획전</a></li>
+                        <li><a href="#">이벤트/혜택</a></li>
+                        <li><a href="#">레시피</a></li>
+                    </ul>
+                    <ul id="search_wr">
+                        <li><input type="text" id="search_t"></li>
+                        <li><input type="image" id="search_b" src="images/search.svg"></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div id="slide">
+                <div><a href="#"><img src="images/slide01.jpg" alt=""></a></div>
+                <div><a href="#"><img src="images/slide02.jpg" alt=""></a></div>
+                <div><a href="#"><img src="images/slide03.jpg" alt=""></a></div>
+                <div><a href="#"><img src="images/slide04.jpg" alt=""></a></div>
+                <div><a href="#"><img src="images/slide05.jpg" alt=""></a></div>
+                <div><a href="#"><img src="images/slide06.jpg" alt=""></a></div>
+                <div><a href="#"><img src="images/slide07.jpg" alt=""></a></div>
+                <div><a href="#"><img src="images/slide08.jpg" alt=""></a></div>
+            </div>
+            <div id="best_wr">
+                <p><span>삼진어묵 베스트</span></p>
+                <ul id="best">
+                    <li><a href="#">
+                        <div id="img01">
+                            <img src="images/best_menu01-1.jpg" alt="">
+                            <img src="images/best_menu01-2.jpg" alt="" id="hover01">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_ex"><span>프리미엄 어묵들로 구성된 각양각색의</span></li>
+                            <li class="best_name"><span>어묵탕모듬 플러스</span></li>
+                            <li class="best_pay"><span>17,000원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/best_menu02-1.jpg" alt="">
+                            <img src="images/best_menu02-2.jpg" alt="" id="hover02">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_ex"><span>프리미엄 어묵들로 구성된 각양각색의</span></li>
+                            <li class="best_name"><span>야채모듬어묵 플러스</span></li>
+                            <li class="best_pay"><span>13,000원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/best_menu03-1.jpg" alt="">
+                            <img src="images/best_menu03-2.jpg" alt="" id="hover03">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_ex"><span>프리미엄 어묵들로 구성된 각양각색의</span></li>
+                            <li class="best_name"><span>매운모듬어묵 플러스</span></li>
+                            <li class="best_pay"><span>13,000원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/best_menu04-1.jpg" alt="">
+                            <img src="images/best_menu04-2.jpg" alt="" id="hover04">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_ex"><span>프리미엄 어묵들로 구성된 각양각색의</span></li>
+                            <li class="best_name"><span>해물모듬어묵 플러스</span></li>
+                            <li class="best_pay"><span>13,000원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/best_menu05-1.jpg" alt="">
+                            <img src="images/best_menu05-2.jpg" alt="" id="hover05">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_name"><span>어부의 바 매운맛</span></li>
+                            <li class="best_pay"><span>2,000원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/best_menu06-1.jpg" alt="">
+                            <img src="images/best_menu06-2.jpg" alt="" id="hover06">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_name"><span>어부의 바 야채맛</span></li>
+                            <li class="best_pay"><span>2,000원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/best_menu07-1.jpg" alt="">
+                            <img src="images/best_menu07-2.jpg" alt="" id="hover07">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_name"><span>어부의 바 콘치즈맛</span></li>
+                            <li class="best_pay"><span>2,000원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/best_menu08-1.jpg" alt="">
+                        </div>
+                        <ul class="best_lnb">
+                            <li class="best_ex"><span>삼진 어묵의 인기 고급제품으로 구성된</span></li>
+                            <li class="best_name"><span>1953세트 1호</span></li>
+                            <li class="best_pay"><span>20,700원</span></li>
+                        </ul>
+                        <ul class="best_bt">
+                            <li class="wish"><span>찜하기</span></li>
+                            <li class="cart"><span>장바구니</span></li>
+                        </ul>
+                    </a></li>
+                </ul>
+            </div>
+            <div id="gift_wr">
+                <p><span>삼진어묵 선물세트</span></p>
+                <div id="gift">
+                    <div><a href="#"><img src="images/gift03.jpg" alt="">
+                        <ul class="gift_lnb">
+                            <li class="gift_name"><span>1953세트 1호</span></li>
+                            <li class="gift_ex"><span>삼진어묵의 인기 고급제품으로 구성된 고급선물세트입니다.</span></li>
+                            <li class="gift_pay"><span>20,700원</span></li>
+                        </ul>
+                    </a></div>
+                    <div><a href="#"><img src="images/gift01.jpg" alt="">
+                        <ul class="gift_lnb">
+                            <li class="gift_name"><span>1953세트 2호</span></li>
+                            <li class="gift_ex"><span>고급어묵들로 구성된 각양각색의 모둠어묵, 선물용으로 추천</span></li>
+                            <li class="gift_pay"><span>29,520원</span></li>
+                        </ul>
+                    </a></div>
+                    <div><a href="#"><img src="images/gift02.jpg" alt="">
+                        <ul class="gift_lnb">
+                            <li class="gift_name"><span>1953세트 3호</span></li>
+                            <li class="gift_ex"><span>고급어묵들로 구성된 각양각색의 모둠어묵, 선물용으로 추천</span></li>
+                            <li class="gift_pay"><span>45,000원</span></li>
+                        </ul>
+                    </a></div>
+                </div>
+            </div>
+            <div id="benefit_wr">
+                <div id="be_img">
+                    <div><img src="images/benefit01.jpg" alt=""></div>
+                    <div><img src="images/benefit02.jpg" alt=""></div>
+                    <div><img src="images/benefit03.jpg" alt=""></div>
+                </div>
+                <ul id="benefit">
+                    <li><span>회원가입 시 마일리지 혜택</span></li>
+                    <li><span>3만원 이상 무료배송</span></li>
+                    <li><span>금액대별 회원 혜택</span></li>
+                </ul>
+                <ul id="be_lnb">
+                    <li><span>신규 회원가입 시 2,000원 마일리지가 지급됩니다.</span></li>
+                    <li><span>3만원 이상 무제한 무료배송 합니다.</span></li>
+                    <li><span>구매 금액대별 혜택을 드리는 회원제도</span></li>
+                </ul>
+            </div>
+            <div class="offline">
+                <div id="store_wr">
+                    <div><img src="images/main-store-view.jpg" alt=""></div>
+                    <ul id="store">
+                        <li><span>store</span></li>
+                        <li><span>가까운 매장 찾기</span></li>
+                        <li><span>우리동네에서 가까운<br>삼진어묵 매장을 찾아보세요!</span></li>
+                    </ul>
+                </div>
+                <div id="reservation_wr">
+                    <div><img src="images/main-reservation-view.jpg" alt=""></div>
+                    <ul id="reservation">
+                        <li><span>reservation</span></li>
+                        <li><span>체험 역사관 예약</span></li>
+                        <li><span>삼진어묵 역사관 방문과<br>어묵 만들기를 체험해보세요!</span></li>
+                    </ul>
+                </div>
+            </div>
+            <p id="insta"><span>인스타그램@samjinamook</span></p>
+            <div class="guide_wr">
+                <div class="guide">
+                    <div class="call_wr">
+                        <ul id="call">
+                            <li class="title"><span>고객센터</span></li>
+                            <li><span>051-412-5468</span></li>
+                            <li><span>문자상담</span></li>
+                            <li><span>1644-1953</span></li>
+                            <li><span>09:00~18:00 일요일·공휴일 휴무</span></li>
+                            <li><span>KCP구매안전(에스크로) 서비스</span></li>
+                            <li><span>서비스 가입사실 확인</span></li>
+                        </ul>
+                        <ul id="call_bt">
+                            <li><span>1:1문의하기</span></li>
+                            <li><span>FAQ바로가기</span></li>
+                            <li><img src="images/kakao.png" alt=""><span>삼진어묵</span></li>
+                        </ul>
+                    </div>
+                    <div class="bank_wr">
+                        <ul id="bank">
+                            <li class="title"><span>입금계좌</span></li>
+                            <li><span>무통장입금시 확인해주세요.</span></li>
+                            <li><span>322-910082-65305</span></li>
+                            <li><span>하나은행</span></li>
+                            <li><span>예금주 : 삼진어묵㈜</span></li>
+                        </ul>
+                        <div class="security_wr">
+                            <div id="security">
+                                <div><img src="images/global_info_ssl_logo_2x.png" alt=""></div>
+                                <div><img src="images/global_info_kcp_logo_2x.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div id="bank_bt"><span>입금자 확인하기</span></div>
+                    </div>
+                    <div class="notice_wr">
+                        <ul id="notice">
+                            <li class="title"><span>공지사항</span></li>
+                            <li><a href="#"><span>2020추석 명절 선물세트 대량주문 혜택</span><span class="date">2020.08.24</span></a></li>
+                            <li><a href="#"><span>[공지] 8/15 광복절 공휴일 배송 안내</span><span class="date">2020.08.04</span></a></li>
+                            <li><a href="#"><span id="notice_bt">공지</span><span> 합병에 따른 개인정보 이전 안내</span><span class="date">2020.07.09</span></a></li>
+                            <li><a href="#"><span>[공지사항]택배사 변경에 따른 안내</span><span class="date">2020.06.29</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="company_wr">
+                <ul id="company">
+                    <li><a href="#"><span>회사소개</span></a></li>
+                    <li><a href="#"><span>체험 역사관</span></a></li>
+                    <li><a href="#"><span>매장찾기</span></a></li>
+                    <li><a href="#"><span>고객센터</span></a></li>
+                    <li><a href="#"><span>개인정보처리방침</span></a></li>
+                    <li><a href="#"><span>이용약관</span></a></li>
+                    <li><a href="#"><span>이메일 무단수집 거부</span></a></li>
+                </ul>
+                <ul id="address">
+                    <li><span>상호명 : 삼진어묵(주)</span></li>
+                    <li><span>대표 : 박용준</span></li>
+                    <li><span>부산광역시 영도구 태종로99번길 36</span></li>
+                    <li><span>전화번호 : 051-412-5468</span></li>
+                    <li><span>팩스번호 : 051-980-5468</span></li>
+                    <li><span>문자상담 : 1644-1953 </span></li>
+                    <li><span>메일 : samjinorder@daum.net</span></li>
+                    <li><span>사업자등록번호 : 360-86-00207</span></li>
+                    <li><span>통신판매업신고번호 : 제2016-부산영도-00107호</span></li>
+                    <li><span>개인정보관리자 : 정성우</span></li>
+                </ul>
+                <p id="copyright"><span>Copyright &copy; samjinfood.com All right reserved.</span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
